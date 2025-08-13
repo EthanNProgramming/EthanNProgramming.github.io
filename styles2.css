@@ -1,0 +1,82 @@
+:root{
+  --text-color: #1a1c20;
+  --link-color: #4a76ee;
+  --background-color: white;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--background-color);
+
+}
+
+nav .center{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+nav .left{
+  text-align: left;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.links2{
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: var(black);
+  font-size: 50px;
+  margin: 0 100px;
+  padding: 0 20px;
+  padding-bottom: 20px;
+}
+
+.image {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.links2:hover{
+  color: black;
+}
+
+.links2 .right a{
+  font-size: 22px;
+}
+
+.links2 .right a:last-child{
+  color: var(--text-color);
+  background-color: transparent;
+  padding: 0;
+}
+
+.links2 .right a span{
+  display: none;
+}
+
+.Intro{
+  padding: 0 20px;
+}
+
+.Intro .text h2{
+  font-size: 30px;
+}
